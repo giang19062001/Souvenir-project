@@ -1,0 +1,14 @@
+.editcategory{
+    width: 100%;
+    display: flex;
+
+    .editContainer{
+        flex:6;
+
+        .bottom{
+            .text{
+                color:red;
+            }
+        }
+    }
+}

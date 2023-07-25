@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1024px) {
+
+    .AboveFooter_Vid{
+      margin-left: 0vw;
+      margin-right: 10vw;
+      align-items: center;
+      justify-content: center;
+    }
+    .VidFooter{
+      width: 20em;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+
+
+    .VidFooter{
+      width: 75em;
+    }
+  }

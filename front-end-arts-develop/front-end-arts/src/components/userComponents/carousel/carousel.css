@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1024px) {
+  .Vid{
+    width: 20em;
+  }
+    .Top_Area_Responsive {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .Top_Area_Text_Left_Responsive {
+      justify-content: center;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 5vh;
+      margin-left: 25vw;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+  }
+  @media only screen and (min-width: 1024px) {
+    .Vid{
+    width: 40em;
+  }
+  
+    }
+
+  .underLine {
+    transition: 10s;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  .underLine1 {
+    color: rgb(112, 108, 108);
+    transition: 10s;
+    display: inline-block;
+    position: relative;
+  }
+  .underLine:after,
+  .underLine1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #646464;
+    transform-origin: bottom right;
+    transition: transform 0.75s ease-in-out;
+  }
+  .underLine:hover:after {
+    transform: scaleX(1);
+    /* transform-origin: bottom left; */
+  }
+  .underLine1:hover:after {
+    transform: scaleX(0.9);
+    transform-origin: bottom left;
+  }
+  .Responsive_Head {
+    position: relative;
+    left: -36px;
+  } 
+   .Vid {
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 20px;
+  }
+  .Vid:hover {
+    transform: scale(0.9);
+  }
+  

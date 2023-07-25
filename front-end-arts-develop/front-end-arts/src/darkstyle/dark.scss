@@ -1,0 +1,141 @@
+.app.dark{
+    background-color: rgba(17, 17, 17, 0.825);
+    color:rgb(156,156,156);
+
+    .chartGrid{
+        stroke: rgba(228,228,228,0.219);
+    }
+
+    .navbar{
+        color:#999;
+
+        .search{
+            color:#999;
+
+            input{
+                color:#999;
+            }
+        }
+    }
+
+    .sidebar{
+        background-color: rgba(17, 17, 17, 0.647);
+
+        ul{
+            li{
+                &:hover{
+                    background-color: #333;
+                }
+            }
+        }
+
+    }
+
+    .datatable{
+        .datagridstyle{
+            color:gray;
+            border:none;
+        }
+
+        .cellWithRole{
+            &.Admin{
+                background-color:rgba(255, 127, 80, 0.541);
+                color: orangered;
+            }
+    
+            &.Assistant{
+                background-color:rgba(0, 255, 255, 0.104) ;
+                color:cyan;
+            }
+    
+            &.User{
+                color: blue;
+                background-color: rgb(25, 25, 112);
+            }
+        }
+    }
+
+    .datatableproduct{
+        .datagridstyle{
+            color: gray;
+            border: none;
+        }
+
+        .cellWithStatus{
+            &.InStock{
+                background-color:rgba(255, 127, 80, 0.536);
+                color: coral;
+            }
+    
+            &.OutOfStock{
+                background-color:rgba(0, 255, 255, 0.104) ;
+                color:cyan;
+            }
+    
+        }
+
+        .cellAction{
+            .editButton{
+                color: blue;
+                border: 1px solid rgba(0, 0, 139, 0.642);
+            }
+        }   
+    }
+
+    .datatablecategory{
+        .datagridstyle{
+            color: gray;
+            border: none;
+        }
+
+        .cellAction{
+            .editButton{
+                color: blue;
+                border: 1px solid rgba(0, 0, 139, 0.642);
+            }
+        }
+    }
+
+    .datatableorder{
+        .datagridstyle{
+            color: gray;
+            border: none;
+        }
+
+        .cellAction{
+            .editButton{
+                color: blue;
+                border: 1px solid rgba(0, 0, 139, 0.642);
+            }
+        }
+
+        .cellWithStatus{
+            padding: 5px;
+            border-radius: 5px;
+    
+            &.Confirming{
+                background-color:rgba(255, 127, 80, 0.279);
+                color: coral;
+            }
+    
+            &.OnProcess{
+                background-color:rgba(0, 255, 255, 0.104) ;
+                color:cyan;
+            }
+            &.OnDelivery{
+                background-color:rgba(255, 0, 212, 0.347) ;
+                color:rgb(255, 0, 255);
+            }
+            &.Delivered{
+                background-color:rgba(26, 255, 0, 0.277) ;
+                color:greenyellow;
+            }
+            &.Canceled{
+                background-color:rgba(255, 8, 0, 0.186) ;
+                color:red;
+            }
+        }
+    }
+
+    
+}

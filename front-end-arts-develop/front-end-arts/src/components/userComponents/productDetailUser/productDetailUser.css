@@ -1,0 +1,13 @@
+
+
+@media only screen and (max-width: 1024px) {
+
+    .img{
+        display: block;
+        margin: auto;
+    }
+    .inputQuantity{
+        display: block;
+        margin: auto;
+    }
+}
